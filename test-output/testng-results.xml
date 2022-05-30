@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-30T05:26:34Z" name="Test Suite" finished-at="2022-05-30T05:26:44Z" duration-ms="10163">
+    <groups>
+    </groups>
+    <test started-at="2022-05-30T05:26:34Z" name="Api Tests" finished-at="2022-05-30T05:26:44Z" duration-ms="10163">
+      <class name="Apibookingtesting.bookingapitest.TestCases">
+        <test-method is-config="true" signature="setSpecification()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:34Z" name="setSpecification" finished-at="2022-05-30T05:26:35Z" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSpecification -->
+        <test-method signature="testCreateToken()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:35Z" name="testCreateToken" description="Generating auth token" finished-at="2022-05-30T05:26:38Z" duration-ms="2586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateToken -->
+        <test-method signature="testCreatebooking()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:38Z" name="testCreatebooking" description="Registering the user" finished-at="2022-05-30T05:26:40Z" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatebooking -->
+        <test-method signature="testHealthCheck()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:40Z" name="testHealthCheck" description="Checking health of server" finished-at="2022-05-30T05:26:41Z" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthCheck -->
+        <test-method signature="testgetbooking()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:41Z" name="testgetbooking" description="Getting specific user booking details" finished-at="2022-05-30T05:26:42Z" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetbooking -->
+        <test-method signature="testgetbookingid()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:42Z" name="testgetbookingid" description="Getting the list of booking ids" finished-at="2022-05-30T05:26:44Z" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgetbookingid -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:Apibookingtesting.bookingapitest.TestCases@5b94b04d]" started-at="2022-05-30T05:26:44Z" name="closeReport" finished-at="2022-05-30T05:26:44Z" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- Apibookingtesting.bookingapitest.TestCases -->
+    </test> <!-- Api Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>

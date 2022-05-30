@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1">
+	<listeners>
+		<listener class-name="Apibookingtesting.bookingapitest.TestListener" />
+	</listeners>
+	<test name="Api Tests">
+		<classes>
+			<class name="Apibookingtesting.bookingapitest.TestCases" />
+		</classes>
+	</test>
+</suite>

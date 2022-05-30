@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Apibookingtesting.bookingapitest.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Api Tests(failed)">
+    <classes>
+      <class name="Apibookingtesting.bookingapitest.TestCases">
+        <methods>
+          <include name="closeReport"/>
+          <include name="setSpecification"/>
+          <include name="testgetbookingid"/>
+        </methods>
+      </class> <!-- Apibookingtesting.bookingapitest.TestCases -->
+    </classes>
+  </test> <!-- Api Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
